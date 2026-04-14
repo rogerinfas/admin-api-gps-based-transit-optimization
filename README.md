@@ -41,3 +41,18 @@ Proyecto en desarrollo como parte de una propuesta de tesis orientada a la optim
 
 Variables actuales:
 - `NEXT_PUBLIC_API_BASE_URL`: URL base de la API backend (ejemplo local: `http://localhost:4000`).
+
+## 🚀 CI/CD
+- Rama de integración: `develop`.
+- Rama de producción: `main`/`master`.
+- CI corre en PR/push a `develop`, `main`, `master`.
+- CD despliega automáticamente al hacer merge/push a `main` o `master`.
+
+Secrets requeridos en GitHub Actions:
+- `VPS_HOST`
+- `VPS_USER`
+- `VPS_PORT`
+- `VPS_SSH_KEY`
+- `FRONTEND_APP_PATH`
+- `FRONTEND_PORT` (recomendado `3000`)
+- `NEXT_PUBLIC_API_BASE_URL` (URL pública del backend)
