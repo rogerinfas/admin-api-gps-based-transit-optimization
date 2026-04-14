@@ -40,4 +40,4 @@ Proyecto en desarrollo como parte de una propuesta de tesis orientada a la optim
 2. Ajusta los valores para tu entorno.
 
 Variables actuales:
-- `NEXT_PUBLIC_API_BASE_URL`: URL base de la API backend (ejemplo local: `http://localhost:3000`).
+- `NEXT_PUBLIC_API_BASE_URL`: URL base de la API backend (ejemplo local: `http://localhost:4000`).
