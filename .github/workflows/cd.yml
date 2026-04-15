@@ -15,7 +15,7 @@ jobs:
           APP_PATH: ${{ secrets.FRONTEND_APP_PATH }}
           REPO_URL: https://github.com/rogerinfas/admin-gps-based-transit-optimization.git
           BRANCH_NAME: ${{ github.ref_name }}
-          FRONTEND_PORT: ${{ secrets.FRONTEND_PORT }}
+          FRONTEND_PORT: "3000"
           NEXT_PUBLIC_API_BASE_URL: ${{ secrets.NEXT_PUBLIC_API_BASE_URL }}
         with:
           host: ${{ secrets.VPS_HOST }}
